@@ -1,0 +1,10 @@
+[project]
+name = "ai-coding-agent"
+version = "0.1.0"
+description = "CLI coding agent with sandboxed file tools (boot.dev guided project, OpenRouter)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai==2.44.0",
+    "python-dotenv==1.1.0",
+]
